@@ -1,29 +1,22 @@
 qty=int(input()); days=int(input())
-cost=0; christmasSpirit=0
-SecondDay=2; ThirdDay=3; FifthDay=5; TenthDay=10; EleventhDay=11
+christmasSpirit=0; totalCost=0
 for k in range(1,days+1):
-    if k==SecondDay:
-        cost+=2*qty
-        christmasSpirit+=5
-        SecondDay+=2
-    if k==ThirdDay:
-        cost+=(5*qty)+(3*qty)
-        christmasSpirit+=13
-        ThirdDay+=3
-    if k==FifthDay:
-        cost+=15*qty
-        christmasSpirit += 17
-        if (k==TenthDay and not k==days) or (k==ThirdDay):
-            christmasSpirit+=30
-        FifthDay+=5
-    if k==TenthDay:
-        cost+=5+3+15
-        christmasSpirit-=20
-        if days%10==0 and k==days:
-            christmasSpirit-=30
-        else:
-            TenthDay+=10
-    if k==EleventhDay:
+    boughtSkirtsAndGarlands=False
+    if k%11==0:
         qty+=2
-        EleventhDay+=11
-print(f"Total cost: {cost}\nTotal spirit: {christmasSpirit}")
+    if k%2==0:
+        totalCost+=2*qty; christmasSpirit+=5
+    if k%3==0:
+        totalCost+=(5*qty)+(3*qty); christmasSpirit+=13
+        boughtSkirtsAndGarlands=True
+    if k%5==0:
+        totalCost+=15*qty; christmasSpirit+=17
+        if boughtSkirtsAndGarlands==True:
+            boughtSkirtsAndGarlands=False
+            christmasSpirit+=30
+    if k%10==0:
+        christmasSpirit-=20
+        totalCost+=5+3+15
+        if k==days:
+            christmasSpirit-=30
+print(f"Total cost: {totalCost}\nTotal spirit: {christmasSpirit}")
