@@ -1,56 +1,28 @@
 giftsToBuy=input()
-giftsList=[]
-k=0
-while k<len(giftsToBuy):
-    giftName=""
-    if giftsToBuy[k]!=" ":
-        for j in range(k,len(giftsToBuy)):
-            if giftsToBuy[j]!=" ":
-                giftName+=giftsToBuy[j]
-                k+=1
-            else:
-                k+=1
-                break
-        giftsList.append(giftName)
-    else:
-        k+=1
-#print(giftsList)
-command=""
-while command!="No Money":
+giftsToBuy=giftsToBuy.split(" ")
+while True:
     command=input()
     if command!="No Money":
-        if command.find("OutOfStock")!=-1:
-            giftName=""
-            for j in range(10,len(command)):
-                if command[j]!=" ":
-                    giftName+=command[j]
-            for j in range(0,len(giftsList)):
-                if giftsList[j]==giftName:
-                    giftsList[j]="None"
-        elif command.find("Required")!=-1:
-            giftName=""; index=""; stoppedAt=0
-            for j in range(9,len(command)):
-                if command[j]!=" ":
-                    giftName+=command[j]
+        if "OutOfStock" in command:
+            command=command.split(" ")
+            while True:
+                if command[1] in giftsToBuy:
+                    giftsToBuy[giftsToBuy.index(command[1])]="None"
                 else:
-                    stoppedAt=j
                     break
-            for j in range(stoppedAt+1,len(command)):
-                if command[j]!=" ":
-                    index+=command[j]
-            index=int(index)
-            if not index>len(giftsList)-1 or index<0:
-                giftsList[index]=giftName
-        elif command.find("JustInCase")!=-1:
-            giftName=""
-            for j in range(11,len(command)):
-                if command[j]!=" ":
-                    giftName+=command[j]
-            giftsList[len(giftsList)-1]=giftName
-j=0
-while j<len(giftsList):
-    if giftsList[j]=="None":
-        del giftsList[j]
-        continue
-    j+=1
-print(" ".join(giftsList))
+        elif "Required" in command:
+            command=command.split(" ")
+            if not int(command[2])>=len(giftsToBuy) and not int(command[2])<0:
+                giftsToBuy[int(command[2])]=command[1]
+        elif "JustInCase" in command:
+            command=command.split(" ")
+            giftsToBuy[len(giftsToBuy)-1]=command[1]
+    else:
+        k=0
+        while k<len(giftsToBuy):
+            if giftsToBuy[k]=="None":
+                del giftsToBuy[k]
+            else:
+                k+=1
+        break
+print(" ".join(giftsToBuy))
