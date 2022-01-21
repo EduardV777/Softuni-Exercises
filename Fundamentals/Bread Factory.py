@@ -1,57 +1,34 @@
-events=input()
-eventsList=[]; energy=100; coins=100; closed=False
-k=0
-while k<len(events):
-    eventName=""; eventVal=""
-    if events[k]!="-" or events[k]!="|":
-        if events[k].isalpha():
-            for j in range(k,len(events)):
-                if events[j]!="-":
-                    k+=1
-                    eventName+=events[j]
-                else:
-                    k+=1
-                    break
-            eventsList.append([eventName])
-        elif events[k].isdigit():
-            for j in range(k,len(events)):
-                if events[j]!="|":
-                    k+=1
-                    eventVal+=events[j]
-                else:
-                    k+=1
-                    break
-            eventsList[len(eventsList)-1].append(int(eventVal))
-for k in range(0,len(eventsList)):
-    for j in range(0,1):
-        if eventsList[k][j]=="rest":
-            gainedEnergy = 100
-            if not energy+eventsList[k][j+1]>100:
-                initialEnergy=energy
-                energy+=eventsList[k][j+1]
-                gainedEnergy=energy-initialEnergy
-            else:
-                energy=100
-                gainedEnergy-=energy
-            print(f"You gained {gainedEnergy} energy.\nCurrent energy: {energy}.")
-        elif eventsList[k][j]=="order":
-            if not energy-30<1:
-                energy-=30
-                earned=eventsList[k][j+1]
-                coins+=earned
-                print(f"You earned {earned} coins.")
-            else:
-                energy+=50
-                print("You had to rest!")
+workEvents=input()
+workEvents=workEvents.split("|")
+energy=100; coins=100; closedBakery=False
+for k in range(0,len(workEvents)):
+    workEvents[k]=workEvents[k].split("-")
+    workEvents[k][1]=int(workEvents[k][1])
+
+for j in range(0,len(workEvents)):
+    if workEvents[j][0]=="rest":
+        if energy+workEvents[j][1]>100:
+            energy=100
+            print(f"You gained 0 energy.")
         else:
-            if coins>=eventsList[k][j+1]:
-                coins-=eventsList[k][j+1]
-                print(f"You bought {eventsList[k][j]}.")
-            else:
-                closed=True
-                print(f"Closed! Cannot afford {eventsList[k][j]}.")
-                break
-    if closed==True:
-        break
-if closed==False:
+            print(f"You gained {workEvents[j][1]} energy.")
+            energy+=workEvents[j][1]
+        print(f"Current energy: {energy}.")
+    elif workEvents[j][0]=="order":
+        if energy>=30:
+            print(f"You earned {workEvents[j][1]} coins.")
+            coins += workEvents[j][1]
+            energy-=30
+        else:
+            print("You had to rest!")
+            energy+=50
+    else:
+        if coins>=workEvents[j][1]:
+            print(f"You bought {workEvents[j][0]}.")
+            coins-=workEvents[j][1]
+        else:
+            print(f"Closed! Cannot afford {workEvents[j][0]}.")
+            closedBakery=True
+            break
+if closedBakery==False:
     print(f"Day completed!\nCoins: {coins}\nEnergy: {energy}")
