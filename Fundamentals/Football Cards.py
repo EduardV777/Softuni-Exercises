@@ -1,51 +1,21 @@
-str=input()
-sentOffPlayers=[]
-k=0; teamA=11; teamB=11; gameTerminated=False
-while k<len(str):
-    ignore = False; num=""
-    if not str[k]==" ":
-        if str[k]=="A":
-            for i in range(k+2,len(str)):
-                if str[i]==" ":
-                    break
-                else:
-                    num+=str[i]
-            num+="A"
-            #has player already been sent off?
-            for j in range(0,len(sentOffPlayers)):
-                if num==sentOffPlayers[j]:
-                    ignore=True
-                    break
-            if ignore==True:
-                k+=4
-            else:
-                teamA-=1
-                sentOffPlayers.append(num)
-                k+=4
-        elif str[k]=="B":
-            for i in range(k+2,len(str)):
-                if str[i]==" ":
-                    break
-                else:
-                    num+=str[i]
-            num+="B"
-            #has player already been sent off?
-            for j in range(0,len(sentOffPlayers)):
-                if num==sentOffPlayers[j]:
-                    ignore=True
-            if ignore==True:
-                k+=4
-            else:
-                teamB-=1
-                sentOffPlayers.append(num)
-                k+=4
+cardsGiven=input()
+teamA=[1,2,3,4,5,6,7,8,9,10,11]; teamB=[1,2,3,4,5,6,7,8,9,10,11]
+cardsList=cardsGiven.split(" "); gameTerminated=False
+for j in range(0,len(cardsList)):
+    card=cardsList[j].split("-")
+    if card[0]=="A":
+        if int(card[1]) in teamA:
+            del teamA[teamA.index(int(card[1]))]
+        else:
+            continue
     else:
-        k+=1
-    if teamA<7 or teamB<7:
+        if int(card[1]) in teamB:
+            del teamB[teamB.index(int(card[1]))]
+        else:
+            continue
+    if len(teamA)<7 or len(teamB)<7:
         gameTerminated=True
         break
+print(f"Team A - {len(teamA)}; Team B - {len(teamB)}")
 if gameTerminated==True:
-    print(f"Team A - {teamA}; Team B - {teamB}")
     print("Game was terminated")
-else:
-    print(f"Team A - {teamA}; Team B - {teamB}")
