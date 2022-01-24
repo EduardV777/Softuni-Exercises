@@ -1,10 +1,8 @@
 population=input(); minWealth=int(input())
-global distributionPossible; distributionPossible=True
 population=population.split(", ")
 population=[int(e) for e in population]
-population.sort()
-underMinimumWealth=0; needed=[]
-theRich=len(population)-1
+underMinimumWealth=0; needed=[]; distributionPossible=True
+theRich=population.index(max(population))
 
 def genError():
     print("No equal distribution possible")
@@ -16,11 +14,9 @@ for k in range(0,len(population)):
         needed.append((minWealth-population[k],k))
 for k in range(0,len(needed)):
     #switchy richy
-    if population[theRich]<population[theRich-1]:
-        theRich-=1
-    elif theRich!=len(population)-1:
-        if population[theRich]<population[theRich+1]:
-            theRich+=1
+    if population[theRich]<max(population):
+        theRich=population.index(max(population))
+
     if population[theRich]-needed[k][0]>0:
         population[needed[k][1]]+=needed[k][0]
         population[theRich]-=needed[k][0]
