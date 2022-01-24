@@ -1,41 +1,34 @@
 population=input(); minWealth=int(input())
-popWealth=[]
-k=0; equalDistribution=True
-while k<len(population):
-    val=""
-    if population[k]!=" ":
-        for j in range(k,len(population)):
-            if population[j]!=",":
-                val+=population[j]
-                k+=1
-            else:
-                k+=1
-                break
-        val=int(val)
-        popWealth.append(val)
-    else:
-        k+=1
+global distributionPossible; distributionPossible=True
+population=population.split(", ")
+population=[int(e) for e in population]
+population.sort()
+underMinimumWealth=0; needed=[]
+theRich=len(population)-1
 
-maxWealth=0
-for j in range(0,len(popWealth)):
-    if popWealth[maxWealth]<popWealth[j]:
-        maxWealth=j
-for k in range(0,len(popWealth)):
-    if popWealth[k]<minWealth:
-        diff=minWealth-popWealth[k]
-        popWealth[k]=minWealth
-        if popWealth[maxWealth]-diff>=minWealth:
-            popWealth[maxWealth]-=diff
-        else:
-            maxWealth=0
-            for j in range(0,len(popWealth)):
-                if popWealth[maxWealth]<popWealth[j]:
-                    maxWealth=j
-            popWealth[maxWealth]-=diff
-for i in range(0,len(popWealth)):
-    if popWealth[i]<minWealth:
-        print("No equal distribution possible")
-        equalDistribution=False
+def genError():
+    print("No equal distribution possible")
+    return False
+
+for k in range(0,len(population)):
+    if population[k]<minWealth:
+        underMinimumWealth+=1
+        needed.append((minWealth-population[k],k))
+for k in range(0,len(needed)):
+    #switchy richy
+    if population[theRich]<population[theRich-1]:
+        theRich-=1
+    elif theRich!=len(population)-1:
+        if population[theRich]<population[theRich+1]:
+            theRich+=1
+    if population[theRich]-needed[k][0]>0:
+        population[needed[k][1]]+=needed[k][0]
+        population[theRich]-=needed[k][0]
+    else:
+        distributionPossible=genError()
         break
-if equalDistribution==True:
-    print(popWealth)
+    if population[theRich]<minWealth:
+        distributionPossible=genError()
+        break
+if distributionPossible==True:
+    print(population)
