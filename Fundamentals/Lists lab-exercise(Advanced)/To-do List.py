@@ -1,12 +1,13 @@
-notesList=[]
+notes=[0]*10
 while True:
-    note=input()
-    if note!="End":
-        note=note.split("-")
-        notesList.append(note)
+    command=input()
+    if command!="End":
+        tokens=command.split("-")
+        priority=int(tokens[0])-1
+        note=tokens[1]
+        notes.pop(priority)
+        notes.insert(priority, note)
     else:
         break
-notesList=sorted(notesList, key=lambda x: x[0])
-for k in range(0,len(notesList)):
-    notesList[k]=notesList[k][1]
-print(notesList)
+res=[element for element in notes if element != 0]
+print(res)
