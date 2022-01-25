@@ -1,2 +1,2 @@
 # Softuni-Python-Exercises
-My name is Eduard Velkov and this is my repository that will contain all the python codes I've created during my studying at the SoftUni university. These codes were created while doing exercises and exams.
+My name is Eduard Velkov, welcome to my repository! Here I am putting codes I've been doing during my exercises at SoftUni. Currently there are C++ and Python codes uploaded here.
