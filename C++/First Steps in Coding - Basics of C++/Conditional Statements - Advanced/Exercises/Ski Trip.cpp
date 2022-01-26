@@ -9,7 +9,6 @@ int main() {
 	double cost=0;
 	cin >> daysToStay;
 	getline(cin>>ws,roomType); getline(cin, rating);
-	cin >> rating;
 	daysToStay -= 1;
 	if (roomType == "room for one person") {
 		cost += 18.00*daysToStay;
