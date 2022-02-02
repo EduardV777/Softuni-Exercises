@@ -6,7 +6,7 @@ while True:
     if command!="end":
         if "exchange" in command:
             command=command.split(" ")
-            if int(command[1])<0 or int(command[1])>len(data):
+            if int(command[1])<0 or int(command[1])>len(data)-1:
                 print("Invalid index")
                 continue
             subList1=data[:int(command[1])+1]
@@ -48,35 +48,46 @@ while True:
         elif "first" in command or "last" in command:
             command=command.split(" ")
             lookForLast=False; lookForEven=False
-            elements=[]
+            elements=[]; k=0
             if command[0]=="last":
                 lookForLast=True
-            if command[0]=="first" or command[0]=="last":
-                if int(command[1])>len(data) or int(command[1])<0:
-                    print("Invalid count")
-                    continue
-                else:
-                    if command[2]=="even":
-                        lookForEven=True
-                    if lookForEven==True:
-                        if lookForLast==True:
-                            for k in range(len(data)-1, len(data)-int(command[1])-2,-1):
-                                if data[k] % 2 == 0:
-                                    elements.append(data[k])
-                        else:
-                            for k in range(0, 0+int(command[1])):
-                                if data[k] % 2 == 0:
-                                    elements.append(data[k])
+            if int(command[1])>len(data) or int(command[1])<0:
+                print("Invalid count")
+                continue
+            else:
+                if command[2]=="even":
+                    lookForEven=True
+                if lookForEven==True:
+                    if lookForLast==True:
+                        for j in range(len(data)-1, -1,-1):
+                            if k==int(command[1]):
+                                break
+                            if data[j] % 2 == 0:
+                                elements.append(data[j])
+                                k+=1
                     else:
-                        if lookForLast==True:
-                            for k in range(len(data)-1, len(data)-int(command[1])-2,-1):
-                                if data[k] % 2 != 0:
-                                    elements.append(data[k])
-                        else:
-                            for k in range(0, 0+int(command[1])):
-                                if data[k] % 2 != 0:
-                                    elements.append(data[k])
-                print(elements)
+                        for j in range(0, len(data)):
+                            if k==int(command[1]):
+                                break
+                            if data[j] % 2 == 0:
+                                elements.append(data[j])
+                                k+=1
+                else:
+                    if lookForLast==True:
+                        for j in range(len(data)-1, -1,-1):
+                            if k==int(command[1]):
+                                break
+                            if data[j] % 2 != 0:
+                                elements.append(data[j])
+                                k+=1
+                    else:
+                        for j in range(0, len(data)):
+                            if k==int(command[1]):
+                                break
+                            if data[j] % 2 != 0:
+                                elements.append(data[j])
+                                k+=1
+            print(elements)
     else:
         print(data)
         break
