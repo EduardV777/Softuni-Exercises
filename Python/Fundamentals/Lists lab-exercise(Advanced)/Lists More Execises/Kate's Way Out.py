@@ -123,3 +123,4 @@ if gotOut==True:
     print(f"Kate got out in {moves} moves")
 else:
     print("Kate cannot get out")
+#Not finished!
