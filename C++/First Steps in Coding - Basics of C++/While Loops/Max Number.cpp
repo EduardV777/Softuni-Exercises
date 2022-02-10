@@ -12,7 +12,7 @@ int main() {
 			break;
 		}
 		else {
-			int number = stod(currNum);
+			int number = stoi(currNum);
 			if (k == 0) {
 				maxNum = number;
 				k++;
