@@ -1,105 +1,115 @@
-data=input()
-data=data.split(" "); data=[int(e) for e in data]
-
+initList=input()
+initList=initList.split(" "); initList=[int(e) for e in initList]
 while True:
     command=input()
     if command!="end":
+
         if "exchange" in command:
             command=command.split(" ")
-            if int(command[1])<0 or int(command[1])>len(data)-1:
+            index=int(command[1])
+            if index<0 or index>len(initList):
                 print("Invalid index")
                 continue
-            subList1=data[:int(command[1])+1]
-            subList2=data[int(command[1])+1:]
-            data=list(subList2+subList1)
-        elif "max" in command or "min" in command:
-            command=command.split(" ")
-            lookForMin=False; noMatches=False
-            if command[0]=="min":
-                lookForMin=True
-            if command[1]=="even":
-                evenNumbers = [e for e in data if e % 2 == 0]
-                if lookForMin==False:
-                    if len(evenNumbers)==0:
-                        noMatches=True
-                    else:
-                        maxNum=max(evenNumbers)
-                        ind = data.index(maxNum)
-                else:
-                    if len(evenNumbers)==0:
-                        noMatches=True
-                    else:
-                        minNum=min(evenNumbers)
-                        ind = data.index(minNum)
-            elif command[1]=="odd":
-                oddNumbers = [e for e in data if e % 2 != 0]
-                if lookForMin==False:
-                    if len(oddNumbers)==0:
-                        noMatches=True
-                    else:
-                        maxNum=max(oddNumbers)
-                        ind = data.index(maxNum)
-                else:
-                    if len(oddNumbers)==0:
-                        noMatches=True
-                    else:
-                        minNum=min(oddNumbers)
-                        ind = data.index(minNum)
-            if noMatches==True:
-                print("No matches")
-            else:
-                print(ind)
-        elif "first" in command or "last" in command:
-            command=command.split(" ")
-            lookForLast=False; lookForEven=False
-            elements=[]; k=0
-            if command[0]=="last":
-                lookForLast=True
-            if command[2]=="even":
-                lookForEven=True
-            if lookForEven==True:
-                if lookForLast==True:
-                    if (len(data)-1)-int(command[1])<0:
-                        print("Invalid count")
-                        continue
-                    for j in range(len(data)-1, -1,-1):
-                        if k==int(command[1]):
-                            break
-                        if data[j] % 2 == 0:
-                            elements.append(data[j])
-                            k+=1
-                else:
-                    if int(command[1])>len(data)-1:
-                        print("Invalid count")
-                        continue
-                    for j in range(0, len(data)):
-                        if k==int(command[1]):
-                            break
-                        if data[j] % 2 == 0:
-                            elements.append(data[j])
-                            k+=1
-            else:
-                if lookForLast==True:
-                    if (len(data)-1)-int(command[1])<0:
-                        print("Invalid count")
-                        continue
-                    for j in range(len(data)-1, -1,-1):
-                        if k==int(command[1]):
-                            break
-                        if data[j] % 2 != 0:
-                            elements.append(data[j])
-                            k+=1
-                else:
-                    if int(command[1])>len(data)-1:
-                        print("Invalid count")
-                        continue
-                    for j in range(0, len(data)):
-                        if k==int(command[1]):
-                            break
-                        if data[j] % 2 != 0:
-                            elements.append(data[j])
-                            k+=1
-            print(elements)
+            subList1=initList[index+1:]; subList2=initList[0:index+1]
+            initList=subList1+subList2
+
+        elif "max" in command:
+            if "even" in command:
+                maxEven=[e for e in initList if e%2==0]
+                if len(maxEven)==0:
+                    print("No matches")
+                    continue
+                maxEven=max(maxEven)
+                indexOfNum=initList.index(maxEven)
+                print(indexOfNum)
+            elif "odd" in command:
+                maxOdd=[e for e in initList if e%2!=0]
+                if len(maxOdd)==0:
+                    print("No matches")
+                    continue
+                maxOdd=max(maxOdd)
+                indexOfNum=initList.index(maxOdd)
+                print(indexOfNum)
+
+        elif "min" in command:
+            if "even" in command:
+                minEven=[e for e in initList if e%2==0]
+                if len(minEven)==0:
+                    print("No matches")
+                    continue
+                minEven=min(minEven)
+                indexOfNum=initList.index(minEven)
+                print(indexOfNum)
+            elif "odd" in command:
+                minOdd=[e for e in initList if e%2!=0]
+                if len(minOdd)==0:
+                    print("No matches")
+                    continue
+                minOdd=min(minOdd)
+                indexOfNum=initList.index(minOdd)
+                print(indexOfNum)
+
+        elif "first" in command:
+            if "even" in command:
+                command=command.split(" "); command[1]=int(command[1])
+                if command[1]>len(initList):
+                    print("Invalid count")
+                    continue
+                evenNumbers=[e for e in initList if e%2==0]
+                pickedNumbers=[]
+                k=0
+                while k<len(evenNumbers):
+                    if command[1]==0:
+                        break
+                    pickedNumbers.append(evenNumbers[k])
+                    k+=1; command[1]-=1
+                print(pickedNumbers)
+
+            elif "odd" in command:
+                command=command.split(" "); command[1]=int(command[1])
+                if command[1]>len(initList):
+                    print("Invalid count")
+                    continue
+                oddNumbers=[e for e in initList if e%2!=0]
+                pickedNumbers=[]
+                k=0
+                while k<len(oddNumbers):
+                    if command[1]==0:
+                        break
+                    pickedNumbers.append(oddNumbers[k])
+                    k+=1; command[1]-=1
+                print(pickedNumbers)
+
+        elif "last" in command:
+            if "even" in command:
+                command=command.split(" "); command[1]=int(command[1])
+                if command[1]>len(initList):
+                    print("Invalid count")
+                    continue
+                evenNumbers=[e for e in initList if e%2==0]
+                pickedNumbers=[]
+                k=len(evenNumbers)-1
+                while k>-1:
+                    if command[1]==0:
+                        break
+                    pickedNumbers.append(evenNumbers[k])
+                    k-=1; command[1]-=1
+                print(pickedNumbers)
+
+            elif "odd" in command:
+                command = command.split(" "); command[1] = int(command[1])
+                if command[1] > len(initList):
+                    print("Invalid count")
+                    continue
+                oddNumbers = [e for e in initList if e % 2 != 0]
+                pickedNumbers = []
+                k = len(oddNumbers) - 1
+                while k > -1:
+                    if command[1] == 0:
+                        break
+                    pickedNumbers.append(oddNumbers[k])
+                    k -= 1; command[1] -= 1
+                print(pickedNumbers)
     else:
-        print(data)
+        print(initList)
         break
