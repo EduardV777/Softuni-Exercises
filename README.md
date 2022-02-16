@@ -7,5 +7,5 @@ My name is Eduard Velkov, welcome to my repository! Here I am putting codes I've
   <tr><td><p align="center"><b>Python</b></p></td><td><p align="center">C++</p></td></tr>
   <tr><td>
     <i>Programming Basics September 2021</i>: <a href="https://softuni.bg/Certificates/Details/116059/6c85ce2d">See more</a>
-    <td></td>
+    <td><i>Programming Basics January 2022</i>: See more</td>
   </td></tr>
