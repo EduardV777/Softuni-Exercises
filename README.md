@@ -9,3 +9,5 @@ My name is Eduard Velkov, welcome to my repository! Here I am putting codes I've
     <i>Programming Basics September 2021</i>: <a href="https://softuni.bg/Certificates/Details/116059/6c85ce2d">See more</a>
     <td><i>Programming Basics January 2022</i>: See more</td>
   </td></tr>
+
+Official academy website: <a href="https://softuni.org"><i>softuni.org</a></i>
