@@ -1,30 +1,21 @@
-parkedCars={}
 n=int(input())
+parking={}
 for k in range(0,n):
     command=input()
-    if "register" in command and not "unregister" in command:
-        userData=command.split(" ")
-        alreadyRegistered=False
-        for j in parkedCars:
-            if userData[1]==j:
-                print(f"ERROR: already registered with plate number {parkedCars[j]}")
-                alreadyRegistered=True
-                break
-        if alreadyRegistered==False:
-            parkedCars[userData[1]]=userData[2]
-            print(f"{userData[1]} registered {userData[2]} successfully")
-    elif "unregister" in command:
-        userData=command.split(" ")
-        userNotFound=False
-        for j in parkedCars:
-            if userData[1]==j:
-                userNotFound=False
-                print(f"{j} unregistered successfully")
-                del parkedCars[j]
-                break
-            else:
-                userNotFound=True
-        if userNotFound==True:
-            print(f"ERROR: user {userData[1]} not found")
-for j in parkedCars:
-    print(f"{j} => {parkedCars[j]}")
+    command = command.split(" ")
+    if command[0]=="register":
+        doesUserExist=parking.get(command[1],"no")
+        if doesUserExist!="no":
+            print(f"ERROR: already registered with plate number {parking[command[1]]}")
+        else:
+            parking[command[1]]=command[2]
+            print(f"{command[1]} registered {command[2]} successfully")
+    elif command[0]=="unregister":
+        doesUserExist=parking.get(command[1],"no")
+        if doesUserExist!="no":
+            del parking[command[1]]
+            print(f"{command[1]} unregistered successfully")
+        else:
+            print(f"ERROR: user {command[1]} not found")
+for j in parking:
+    print(f"{j} => {parking[j]}")
