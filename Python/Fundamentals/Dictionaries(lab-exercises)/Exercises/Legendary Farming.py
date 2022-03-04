@@ -1,73 +1,41 @@
-currencies={'Shards': 0, 'Fragments': 0, 'Motes': 0}
-obtainedItem=False
+materials={"shards":0,"fragments":0,"motes":0}
+legendaryObtained=False
 while True:
-    i=0; material=""; quantity=0
-    matsQty=input()
-    k = 0
-    while k<len(matsQty):
-        matFound = False
-        if matsQty[k]!=" ":
-            val = ""
-            for j in range(k,len(matsQty)):
-                if matsQty[j]!=" ":
-                    val+=matsQty[j]
-                    k+=1
-                else:
-                    break
-            if i==0:
-                quantity = int(val)
-                i+=1
-            else:
-                material = val
-                for j in currencies:
-                    if j.lower() == material.lower():
-                        currencies[j] += quantity
-                        matFound = True
-                        break
-                if matFound == False:
-                    currencies[material] = quantity
-                i-=1
-        else:
-            k+=1
-
-    if currencies["Shards"]>=250:
-        print("Shadowmourne obtained!")
-        currencies["Shards"]-=250
-        obtainedItem=True
-    elif currencies["Fragments"]>=250:
-        print("Valanyr obtained!")
-        currencies["Fragments"]-=250
-        obtainedItem = True
-    elif currencies["Motes"]>=250:
-        print("Dragonwrath obtained!")
-        currencies["Motes"]-=250
-        obtainedItem = True
-
-    if obtainedItem==True:
-        sameItemsQty=False
-        for j in currencies:
-            if j=="Shards":
-                if currencies[j]==currencies["Fragments"]:
-                    sameItemsQty=True
-                    break
-                elif currencies[j]==currencies["Motes"]:
-                    sameItemsQty=True
-                    break
-            elif j=="Fragments":
-                if currencies[j]==currencies["Motes"]:
-                    sameItemsQty=True
-                    break
-        if sameItemsQty==False:
-            sortCurr=sorted(currencies.items(),key=lambda k: k[1], reverse=True)
-        else:
-            sortCurr=sorted(currencies.items(),key=lambda k: k[0])
-        sortedCurr=dict(sortCurr)
-        for j in sortedCurr:
-            if j=="Shards" or j=="Fragments" or j=="Motes":
-                print(f"{j.lower()}: {sortedCurr[j]}")
-        sortCurrJunk=sorted(currencies.items(),key=lambda k: k[0])
-        sortedCurrJunk=dict(sortCurrJunk)
-        for j in sortedCurrJunk:
-            if j!="Shards" and j!="Fragments" and j!="Motes":
-                print(f"{j}: {sortedCurrJunk[j]}")
+    if legendaryObtained==True:
         break
+    materialsReceived=input()
+    materialsReceived=materialsReceived.split(" ")
+    qty=[int(e) for e in materialsReceived if e.isdigit()==True]
+    mats=[e for e in materialsReceived if e.isdigit()==False]
+
+    for k in range(0,len(mats)):
+        if mats[k].lower()=="shards":
+            materials["shards"]+=qty[k]
+            if materials["shards"]>=250:
+                legendaryObtained = True
+                print("Shadowmourne obtained!")
+                materials["shards"]-=250
+                break
+        elif mats[k].lower()=="motes":
+            materials["motes"]+=qty[k]
+            if materials["motes"]>=250:
+                legendaryObtained = True
+                print("Dragonwrath obtained!")
+                materials["motes"]-=250
+                break
+        elif mats[k].lower()=="fragments":
+            materials["fragments"]=+qty[k]
+            if materials["fragments"]>=250:
+                legendaryObtained = True
+                print("Valanyr obtained!")
+                materials["fragments"]-=250
+                break
+        else:
+            doesItExist=materials.get(mats[k],"nah")
+            if doesItExist=="nah":
+                materials[mats[k]]=qty[k]
+            else:
+                materials[mats[k]]+=qty[k]
+
+for j in materials:
+    print(f"{j}: {materials[j]}")
