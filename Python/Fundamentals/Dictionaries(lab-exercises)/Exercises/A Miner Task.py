@@ -1,25 +1,19 @@
-i=0; resources={}
-resource=""
+resourceStorage=dict()
+k=1; ProdName=""
 while True:
     command=input()
     if command!="stop":
-        resFound=False
-        if i==0:
-            for k in resources:
-                if k==command:
-                    resFound=True
-                    break
-            i+=1; resource=command
-            if resFound==True:
-                continue
-            else:
-                resources[command]=0
-        elif i==1:
-            resources[resource]+=int(command)
-            i-=1
+        if k%2==0:
+                resourceStorage[prodName]+=int(command)
+                k+=1
+        else:
+            prodExists = resourceStorage.get(command, "no")
+            prodName=command
+            if prodExists=="no":
+                resourceStorage[command]=0
+            k+=1
     else:
-        output=""
-        for k in resources:
-            output+=f"{k} -> {resources[k]}\n"
-        print(output)
         break
+
+for j in resourceStorage:
+    print(f"{j} -> {resourceStorage[j]}")
