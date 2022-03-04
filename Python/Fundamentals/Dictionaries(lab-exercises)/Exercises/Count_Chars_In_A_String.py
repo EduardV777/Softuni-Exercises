@@ -1,18 +1,11 @@
-string=input()
-k=0; charsLen={}
-while k<len(string):
-    if string[k]!=" ":
-        charFound=False
-        for j in charsLen:
-            if j==string[k]:
-                charsLen[j]+=1
-                charFound=True
-        if charFound==False:
-            charsLen[string[k]]=1
-        k+=1
-    else:
-        k+=1
-output=""
-for k in charsLen:
-    output+=f"{k} -> {charsLen[k]}\n"
-print(output)
+text=input()
+chars={}
+for k in range(0,len(text)):
+    isCharNew=chars.get(text[k],"not Found")
+    if text[k]!=" ":
+        if isCharNew=="not Found":
+            chars[text[k]]=1
+        else:
+            chars[text[k]]+=1
+for j in chars:
+    print(f"{j} -> {chars[j]}")
