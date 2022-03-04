@@ -1,20 +1,16 @@
 products={}
 while True:
-     productData=input()
-     if productData!="buy":
-         data=productData.split(" ")
-         price = float(data[1]); qty = int(data[2])
-         productFound=False
-         for j in products:
-             if j==data[0]:
-                 products[j][0]=price; products[j][1]+=qty
-                 productFound=True
-                 break
-         if productFound==False:
-             products[data[0]]=[price,qty]
-     else:
-        output=""
+    command=input()
+    if command!="buy":
+        command=command.split(" ")
+        command[1]=float(command[1]); command[2]=int(command[2])
+        doesItExist=products.get(command[0],"no")
+        if doesItExist!="no":
+            products[command[0]][0]=command[1]
+            products[command[0]][1]+=command[2]
+        else:
+            products[command[0]]=[command[1],command[2]]
+    else:
         for j in products:
-            output+=f"{j} -> {products[j][0]*products[j][1]:.2f}\n"
-        print(output)
+            print(f"{j} -> {products[j][0]*products[j][1]:.2f}")
         break
