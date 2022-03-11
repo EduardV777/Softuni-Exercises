@@ -1,55 +1,38 @@
-tickets=input()
-tickets=tickets.split(", ")
-winningSymbols=["@","#","$","^"]
+collectionOfTickets=input()
+collectionOfTickets=collectionOfTickets.split(", ")
 
-for k in tickets:
-    k=k.replace(" ","")
-    #valid or not
-    if len(k)==20:
-        cursor=0
-        winning=False; jackpot=False
-        while True:
-            ind=k.find(winningSymbols[cursor])
-            if ind==-1:
-                cursor+=1
-                if cursor>=len(winningSymbols):
-                    break
-            else:
-                if ind>4:
-                    break
-                else:
-                    leftSide=0; rightSide=0
-                    #check left half
-                    for i in range(ind,10):
-                        if k[i]==winningSymbols[cursor]:
-                            leftSide+=1
-                            ind+=1
-                        else:
-                            ind=10
-                            break
-                    #check right half
-                    ind=k.find(winningSymbols[cursor],ind)
-                    if ind==-1 or ind>14:
-                        break
-                    else:
-                        for i in range(ind,len(k)):
-                            if k[i]==winningSymbols[cursor]:
-                                rightSide+=1
-                            else:
-                                break
-                        if leftSide==10 and rightSide==10:
-                            jackpot=True; winning=True
-                        if leftSide==rightSide:
-                            winning=True
-                            break
-                        else:
-                            break
-        if winning==False:
-            print(f"ticket \"{k}\" - no match")
-        else:
-            output=f"ticket \"{k}\" - {leftSide}{winningSymbols[cursor]}"
-            if jackpot==True:
-                output+=" Jackpot!"
-            print(output)
+for k in range(0,len(collectionOfTickets)):
+    collectionOfTickets[k]=collectionOfTickets[k].replace(" ", "")
+
+for k in range(0,len(collectionOfTickets)):
+    if not len(collectionOfTickets[k])==20:
+        print("invalid ticket")
+        continue
     else:
-        print(f"invalid ticket")
+        jackpotCheck=["",0,0]
+        firstHalf=0; secondHalf=0; winningSymbolsDetected=False
+        symbs=0; half="first"
+        for j in range(0,len(collectionOfTickets[k])):
+            if j>=len(collectionOfTickets[k])//2 and half=="first":
+                half="second"; symbs=0
+            if len(collectionOfTickets[k])==20:
+                if collectionOfTickets[k][j]=="@" or collectionOfTickets[k][j]=="#" or collectionOfTickets[k][j]=="$" or collectionOfTickets[k][j]=="^":
+                    jackpotCheck[0]=collectionOfTickets[k][j]
+                    symbs+=1
+                    if half=="first":
+                        if symbs>firstHalf:
+                            firstHalf+=(symbs-firstHalf)
+                            jackpotCheck[1]+=1
+                    else:
+                        if symbs>secondHalf:
+                            secondHalf+=(symbs-secondHalf)
+                            jackpotCheck[2]+=1
+                else:
+                    symbs=0
+        if jackpotCheck[1]>=10 and jackpotCheck[2]>=10:
+            print(f"ticket \"{collectionOfTickets[k]}\" - {jackpotCheck[1]}{jackpotCheck[0]} Jackpot!")
+        else:
+            if firstHalf>=6 and secondHalf>=6:
+                print(f"ticket \"{collectionOfTickets[k]}\" - {jackpotCheck[1]}{jackpotCheck[0]}")
+            else:
+                print(f"ticket \"{collectionOfTickets[k]}\" - no match")
