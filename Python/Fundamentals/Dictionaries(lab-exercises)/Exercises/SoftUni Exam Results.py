@@ -1,44 +1,43 @@
-courseParticipants={}
-courseLanguages={}
+submissions={}
+langSubStatistics=[]
 while True:
-    command=input()
-    if "-" in command and not "banned" in command:
-        participantData=command.split("-")
-        username=participantData[0]; lang=participantData[1]; pts=participantData[2]
-        nameFound=False; languageFound=False
-        for j in courseLanguages:
-            if j==lang:
-                languageFound=True
-                courseLanguages[j]+=1
-                break
-        if languageFound==False:
-            courseLanguages[lang]=1
-        for j in courseParticipants:
-            if j==username:
-                nameFound=True
-                if courseParticipants[j][1]<pts:
-                    courseParticipants[j][1]=pts
+    data=input()
+    if data!="exam finished":
+        if "banned" in data:
+            data=data.split("-")
+            submissions[username]="banned"
+        else:
+            data=data.split("-")
+            username=data[0]; lang=data[1]; pts=int(data[2])
+            if not username in submissions:
+                submissions[username]=[[lang,pts]]
+            else:
+                langExists=False
+                for k in range(0,len(submissions[username])):
+                    if submissions[username][k][0]==lang:
+                        langExists = True
+                        if submissions[username][k][1]<pts:
+                            submissions[username][k][1]=pts
+                            break
+                if langExists==False:
+                    submissions[username].append([lang,pts])
+            langExists = False
+            for k in range(0,len(langSubStatistics)):
+                if langSubStatistics[k][0]==lang:
+                    langExists=True
+                    langSubStatistics[k][1]+=1
                     break
-                else:
-                    break
-        if nameFound==False:
-            courseParticipants[username]=[lang,pts]
-    elif "-" in command and "banned" in command:
-        participantBan=command.split("-")
-        username=participantBan[0]
-        for j in courseParticipants:
-            if j==username:
-                del courseParticipants[j]
-                break
-    elif command=="exam finished":
-        orderBySubs = sorted(courseLanguages.items(), key=lambda x: x[1], reverse=True)
-        orderBySubs = dict(orderBySubs)
-        orderDescByPts=sorted(courseParticipants.items(),key=lambda x: x[1][1], reverse=True)
-        orderDescByPts=dict(orderDescByPts)
+            if langExists==False:
+                langSubStatistics.append([lang, 1])
+    else:
         print("Results:")
-        for j in orderDescByPts:
-            print(f"{j} | {orderDescByPts[j][1]}")
+        for j in submissions:
+            if submissions[j]=="banned":
+                continue
+            else:
+                for k in range(0,len(submissions[j])):
+                    print(f"{j} | {submissions[j][k][1]}")
         print("Submissions:")
-        for j in orderBySubs:
-            print(f"{j} - {orderBySubs[j]}")
+        for k in range(0,len(langSubStatistics)):
+            print(f"{langSubStatistics[k][0]} - {langSubStatistics[k][1]}")
         break
