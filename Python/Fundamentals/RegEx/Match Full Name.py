@@ -1,9 +1,5 @@
 import re
-fullName=input()
-fullName=fullName.split(", ")
-validNames=""
-pattern=re.compile(r"^[A-Z][a-z]+ [A-Z][a-z]+$")
-for k in range(0,len(fullName)):
-    if pattern.search(fullName[k]):
-        validNames+=f"{fullName[k]} "
-print(validNames)
+fullName=re.compile(r"\b[A-Z][a-z]{1,} [A-Z][a-z]{1,}\b")
+names=input()
+listMatches=fullName.findall(names)
+print(f"{' '.join(listMatches)}")
