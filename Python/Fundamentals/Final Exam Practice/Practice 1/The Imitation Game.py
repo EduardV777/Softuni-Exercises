@@ -1,36 +1,37 @@
 import re
-
 encryptedMsg=input()
-encryptedMsg=[e for e in encryptedMsg]
-
+encryptedMsg=[char for char in encryptedMsg]
 while True:
     command=input()
     if command!="Decode":
         if "Move" in command:
             command=command.split("|")
-            number=int(command[1])
+            command[1]=int(command[1])
             letters=[]
-            while number!=0:
-                letters.append(encryptedMsg[0])
-                del encryptedMsg[0]
-                number-=1
+            if command[1]<len(encryptedMsg):
+                while command[1]!=0:
+                    letters.append(encryptedMsg[0])
+                    del encryptedMsg[0]
+                    command[1]-=1
             for k in range(0,len(letters)):
                 encryptedMsg.append(letters[k])
         elif "Insert" in command:
             command=command.split("|")
-            ind=int(command[1]); value=command[2]
-            encryptedMsg.insert(ind,value)
+            ind=int(command[1]); val=command[2]
+            encryptedMsg.insert(ind,val)
         elif "ChangeAll" in command:
             command=command.split("|")
-            subString=command[1]; replaceWith=command[2]
-            findSubString=re.compile(rf"({subString})")
-            occurrences=findSubString.finditer(''.join(encryptedMsg))
-            for n in occurrences:
-                inds=n.span()
-                start=inds[0]; end=inds[1]
-                if start!=-1 and end!=-1:
-                    for k in range(start,end):
-                        encryptedMsg[k]=replaceWith
+            subStr=command[1]; replacement=command[2]
+            findSubStr=re.compile(rf"{subStr}")
+            encryptedMsg=''.join(encryptedMsg)
+            foundStrings=findSubStr.finditer(encryptedMsg)
+            encryptedMsg=[char for char in encryptedMsg]
+            for j in foundStrings:
+                indexes=j.span()
+                startInd=indexes[0]; endInd=indexes[1]
+                while startInd<endInd:
+                    encryptedMsg[startInd]=replacement
+                    startInd+=1
     else:
         print(f"The decrypted message is: {''.join(encryptedMsg)}")
         break
