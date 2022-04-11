@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int n, even=0, odd=0;
+	cin >> n;
+	if (n < 0) {
+		n*= 1;
+	}
+	while (n) {
+		int digit = n % 10;
+		if (digit % 2 == 0) {
+			even += digit;
+		}
+		else {
+			odd += digit;
+		}
+		n /= 10;
+	}
+	cout << even * odd;
+	return 0;
+}
