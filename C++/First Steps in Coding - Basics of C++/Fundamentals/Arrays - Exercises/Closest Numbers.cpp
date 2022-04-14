@@ -22,6 +22,9 @@ int FindClosest(int* arr, int size) {
 			}
 		}
 	}
+	if (currDiff == -777) {
+		currDiff = 0;
+	}
 	return currDiff;
 }
 
