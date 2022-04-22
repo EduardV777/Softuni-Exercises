@@ -12,7 +12,7 @@ My name is Eduard Velkov, I am a studying software engineering at SoftUni, speci
   <tr><td>
     <i>Programming Fundamentals January 2022</i>: <a href="https://softuni.bg/Certificates/Details/129201/c654569c">See more</a>
   </td><td>
-    <i>Programming Fundamentals with C++ March 2022</i>: See more
+  <i>Programming Fundamentals with C++ March 2022</i>: <a href="https://softuni.bg/Certificates/Details/132794/dad07a71">See more</a>
   </td></tr>
 
 Official academy website: <a href="https://softuni.org"><i>softuni.org</a></i>
