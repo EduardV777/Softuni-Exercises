@@ -2,9 +2,12 @@
 #include <map>
 #include <utility>
 #include <string>
+#include <vector>
+
 using namespace std;
 
 int main() {
+	vector<string> continentsOrder, countriesOrder;
 	map<string, map<string, string>> places;
 	int n;
 	cin >> n;
@@ -31,6 +34,7 @@ int main() {
 		}
 		auto find = places.find(continent);
 		if (find == places.end()) {
+			continentsOrder.push_back(continent);
 			map<string, string> locations;
 			places[continent] = locations;
 
@@ -38,6 +42,7 @@ int main() {
 		map<string, string>& mapLink = places[continent];
 		auto find2 = mapLink.find(country);
 		if (find2 == mapLink.end()) {
+			countriesOrder.push_back(country);
 			mapLink[country] = "";
 		}
 		if (mapLink[country].length() > 0) {
@@ -47,13 +52,20 @@ int main() {
 		n--;
 	}
 
-	for (auto c = places.begin(); c != places.end(); c++) {
-		map<string, string>& mapLink = c->second;
+	for (string c : continentsOrder) {
+		auto continent = places.find(c);
+		cout << continent->first << ":\n";
 
-		cout << c->first << ": \n";
-		for (auto c2 = mapLink.begin(); c2 != mapLink.end(); c2++) {
-			cout << "	" << c2->first << " -> " << c2->second << endl;
+		for (string c2 : countriesOrder) {
+			auto country = places[continent->first].find(c2);
+			if (country != places[continent->first].end()) {
+				cout << "  " << country->first << " -> " << country->second << endl;
+			}
+			else {
+				continue;
+			}
 		}
+
 	}
 	return 0;
 }
