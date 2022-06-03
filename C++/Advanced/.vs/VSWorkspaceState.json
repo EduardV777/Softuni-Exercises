@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Memory Management, References, Pointers",
+    "\\Memory Management, References, Pointers\\Exercise",
     "\\Multidimensional Lists",
-    "\\Multidimensional Lists\\Lab"
+    "\\Multidimensional Lists\\Exercise"
   ],
-  "SelectedNode": "\\Multidimensional Lists\\Lab\\Diagonal Difference.cpp",
+  "SelectedNode": "\\Memory Management, References, Pointers\\Exercise\\Print In Parts.cpp",
   "PreviewInSolutionExplorer": false
 }
