@@ -7,5 +7,5 @@ describe('testResults', function() {
     it('ZeroAndZeroMakesZero', () => assert.assert.equal(multiply(0,0), 0));
     it('MinusPlusMakesMinus', () => assert.assert.equal(multiply(-1,1), -1));
     //must fail
-    it('noWrongResults', () => assert.assert.equal(multiply(2,3), 10));
+    it('WrongResults', () => assert.assert.equal(multiply(2,3), 10));
 });
