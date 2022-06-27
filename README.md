@@ -1,7 +1,7 @@
 # Softuni-Exercises
 My name is Eduard Velkov, I am studying software engineering at SoftUni, specializing in full-stack python development. Welcome to my repository! Here I am putting codes I've been doing during my exercises and exams at SoftUni. All languages I've practiced at SoftUni are included.
 <table>
-  <tr><td colspan="5">
+  <tr><td colspan="7">
     <h5 align="center">Acquired Certificates at SoftUni:</h5>
   </td></tr>
   <tr><td><p align="center"><b>Python</b></p></td><td><p align="center">C++</p></td></tr>
