@@ -5,7 +5,6 @@ class Account:
         self.balance = balance
         self.__pin = pin
     
-
     def get_id(self, pin):
         if pin == self.__pin:
             return self.__id
