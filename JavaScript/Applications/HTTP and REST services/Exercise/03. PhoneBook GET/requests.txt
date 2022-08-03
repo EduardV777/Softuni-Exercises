@@ -1,0 +1,7 @@
+•	Perform an HTTP request that show people’s names, their phones and _id. 
+(http://localhost:3030/jsonstore/phonebook)
+
+
+Request 1:
+GET /jsonstore/phonebook HTTP/1.1
+Host: http://localhost:3030

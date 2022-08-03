@@ -1,0 +1,20 @@
+•	Manually compile an HTTP (as text) request for retrieving information about Bulgaria;
+•	Make a request that retrieving only the fields name, capital, region, population for the country Italy.
+•	Make a request that takes all German-speaking countries.
+
+Request 1:
+
+GET /v2/name/Bulgaria HTTP/1.1
+Host: https://restcountries.com
+Content-type: plain/text
+
+
+Request 2:
+GET /v2/name/Italy?fields=name,capital,region,population HTTP/1.1
+Host: https://restcountries.com
+Content-type: plain/text
+
+Request 3:
+GET /v2/lang/de?fields=name,region
+Host: https://restcountries.com
+Content-type: plain/text

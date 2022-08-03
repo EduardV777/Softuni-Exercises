@@ -1,0 +1,5 @@
+•	Perform an HTTP request that displays arrival times for all buses by a given bus stop ID.
+
+Request 1:
+GET /jsonstore/bus/businfo/(busStopId?) HTTP/1.1
+Host: http://localhost:3030
