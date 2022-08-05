@@ -3,7 +3,8 @@ let forecastSection = document.querySelector("div#forecast");
 let currentSection = document.querySelector("div#current");
 let upcomingSection = document.querySelector("div#upcoming");
 
-async function attachEvents() {
+async function attachEvents() { 
+    
     let forecast = "", forecast3Days = "";
 
     let location = document.querySelector("input#location").value;
