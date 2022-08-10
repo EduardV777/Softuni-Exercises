@@ -1,0 +1,20 @@
+•	Create two different requests with POST request in Postman. 
+    The data sent in a POST request should be a valid JSON object, containing properties person and phone. 
+
+    Example format: 
+    {
+        "person": "<person>",
+        "phone": "<phone>"
+    }
+
+(http://localhost:3030/jsonstore/phonebook)
+
+
+Request 1:
+POST /jsonstore/phonebook HTTP/1.1
+Host: http://localhost:3030
+
+{
+    "person": "Martin",
+    "phone": "0007653345"
+}
