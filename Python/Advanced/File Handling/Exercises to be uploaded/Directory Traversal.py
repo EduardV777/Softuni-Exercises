@@ -25,6 +25,6 @@ foundFilesByExtensions = dict(foundFilesByExtensions)
 for ext in foundFilesByExtensions:
     print(ext)
     foundFilesByExtensions[ext].sort()
-    
+
     for file in foundFilesByExtensions[ext]:
         print(f"- - - {file}")

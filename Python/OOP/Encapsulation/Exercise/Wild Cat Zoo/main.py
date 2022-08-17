@@ -7,7 +7,6 @@ from project.vet import Vet
 from project.zoo import Zoo
 
 
-#"""
 zoo = Zoo("Zootopia", 3000, 5, 8)
 
 # Animals creation
@@ -41,11 +40,3 @@ print(zoo.fire_worker("Adam"))
 # Printing statuses
 print(zoo.animals_status())
 print(zoo.workers_status())
-#"""
-
-"""z = Zoo("Zoo", 500, 2, 2)
-z.add_animal(Lion("John", "m", 2), 100)
-z.add_animal(Tiger("Bill", "f", 4), 100)
-res = z.tend_animals()
-
-print(z._Zoo__budget)"""
