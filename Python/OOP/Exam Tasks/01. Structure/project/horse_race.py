@@ -1,9 +1,18 @@
+from .jockey import Jockey
+
 class HorseRace:
-
+    
     def __init__(self, race_type: str):
-        if race_type == "Winter" or race_type == "Spring" or race_type == "Autumn" or race_type == "Summer":
-            self.race_type = race_type
-        else:
-            raise ValueError("Race type does not exist!")
-
+        self.race_type = race_type
         self.jockeys = []
+    
+    @property
+    def race_type(self):
+        return self.__race_type
+    
+    @race_type.setter
+    def race_type(self, val):
+        if val != "Autumn" and val != "Summer" and val != "Winter" and val != "Spring":
+            raise ValueError("Race type does not exist!")
+        else:
+            self.__race_type = val
