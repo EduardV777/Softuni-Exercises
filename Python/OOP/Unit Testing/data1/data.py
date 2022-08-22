@@ -1,1 +1,0 @@
-varVal = "Eduard Velkov"
