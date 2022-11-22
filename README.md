@@ -8,18 +8,22 @@ My name is Eduard Velkov, I am studying software engineering at SoftUni, special
   <tr><td>
     <i>Programming Basics September 2021</i>: <a href="https://softuni.bg/Certificates/Details/116059/6c85ce2d">See more</a>
     <td><i>Programming Basics January 2022</i>: <a href="https://softuni.bg/certificates/details/126132/1e7bbd79">See more</a></td>
+    <td><i>JavaScript Advanced December 2022</i>: <b>Exam date 07.12</b></td>
   </td></tr>
   <tr><td>
     <i>Programming Fundamentals January 2022</i>: <a href="https://softuni.bg/Certificates/Details/129201/c654569c">See more</a>
   </td><td>
   <i>Programming Fundamentals with C++ March 2022</i>: <a href="https://softuni.bg/Certificates/Details/132794/dad07a71">See more</a>
   </td>
+  <td><i>JavaScript Applications December 2022</i>: <b>Exam date: 13.12</b></td>
   </td></tr>
   <tr><td>
   <i>Programming Advanced with Python June 2022</i>: <a href="https://softuni.bg/Certificates/Details/135910/3b75b1e8">See more</a>
   </td><td>
   <i>Programming Advanced with C++ June 2022</i>: <a href="https://softuni.bg/Certificates/Details/135493/81996888">See more</a>
   </td></tr>
+  <tr><td><i>Python Web Basics December 2022 Retake</i>: <b>Exam date: 21.12</b></i></td></tr>
+  <tr><td><i>Python Web Framework November 2022(Project Defense)</i>: <b>Date: 18.12</b>
   </table>
 
 Official academy website: <a href="https://softuni.org"><i>softuni.org</a></i>
