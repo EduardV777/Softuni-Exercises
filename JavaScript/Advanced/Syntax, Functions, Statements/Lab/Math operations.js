@@ -1,15 +1,36 @@
-function F(num,num2,txt){
-  if(txt=="+"){
-    console.log(eval(num+txt+num2))
-  }else if(txt=="-"){
-    console.log(eval(num+txt+num2))
-  }else if(txt=="*"){
-    console.log(eval(num+txt+num2))
-  }else if(txt=="/"){
-    console.log(eval(num+txt+num2))
-  }else if(txt=="%"){
-    console.log(eval(num+txt+num2))
-  }else if(txt=="**"){
-    console.log(eval(num+txt+num2))
+function solve(num1, num2, operation){
+
+  let res;
+
+  switch(operation){
+      case "+":
+          res = num1 + num2;
+          break;
+
+      case "-":
+          res = num1 - num2;
+          break;
+
+      case "*":
+          res = num1 * num2;
+          break;
+
+      case "/":
+          res = num1 / num2;
+          break;
+
+      case "%":
+          res = num1 % num2;
+          break;
+
+      case "**":
+          res = num1 ** num2;
+          break;
   }
+
+  console.log(res);
 }
+
+
+solve(5, 6, '+');
+solve(3, 5.5, '*');

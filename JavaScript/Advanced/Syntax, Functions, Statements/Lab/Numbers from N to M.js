@@ -1,7 +1,15 @@
-function Sum(n,m){
-  var num1=Number(n), num2=Number(m), sum=0;
-  for(var k=num1;k<=num2;k++){
-    sum+=k;
+function sumSequence(n, m){
+  n = Number(n);
+  m = Number(m);
+  let sum = 0;
+
+  for(let start = n; start <= m; start++){
+      sum += start;
   }
-  console.log(sum);
+
+  return sum;
 }
+
+
+console.log(sumSequence('1', '5'));
+console.log(sumSequence('-8', '20'));

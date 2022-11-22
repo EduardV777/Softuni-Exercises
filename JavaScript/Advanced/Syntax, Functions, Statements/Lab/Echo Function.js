@@ -1,4 +1,6 @@
-function echoText(txt){
-  console.log(txt.length);
-  console.log(txt);
+function echo(strVar){
+  console.log(strVar.length);
+  console.log(strVar);
 }
+
+echo("Hello Javascript");

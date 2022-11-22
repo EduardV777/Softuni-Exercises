@@ -1,6 +1,11 @@
-function Process(txt1,txt2,txt3){
-  var sum=txt1.length+txt2.length+txt3.length;
-  var avg=Math.floor(sum/3);
-  console.log(sum);
-  console.log(avg);
+function returnInfo(str1, str2, str3){
+  let totalLength = str1.length + str2.length + str3.length;
+
+
+  console.log(totalLength);
+  console.log(Math.floor(totalLength / 3));
 }
+
+
+returnInfo('chocolate', 'ice cream', 'cake');
+returnInfo('pasta', '5', '22.3');

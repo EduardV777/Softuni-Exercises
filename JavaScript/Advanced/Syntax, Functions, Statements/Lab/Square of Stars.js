@@ -1,14 +1,20 @@
-function ShowStarsSquare(size){
-  if(typeof(size)=="undefined"){
-    size=5;
+function DrawStarRectangle(size = 5){
+  let rect = "";
+
+  for(let k = 0; k < size; k++){
+      rect += "* ".repeat(size);
+      if(k != size - 1){
+          rect += "\n";
+      }
   }
-  var output=""
-  for(var k=1;k<=size;k++){
-    var row="";
-    for(var j=1;j<=size;j++){
-      row+="* ";
-    }
-    output+=row+"\n";
-  }
-  console.log(output);
+
+  console.log(rect);
 }
+
+DrawStarRectangle(1);
+DrawStarRectangle(2);
+DrawStarRectangle(5);
+DrawStarRectangle(7);
+console.log("\n\nTesting default argument...");
+
+DrawStarRectangle();
