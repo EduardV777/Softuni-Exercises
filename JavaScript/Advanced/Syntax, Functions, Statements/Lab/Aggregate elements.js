@@ -1,23 +1,37 @@
-function Sum(arr){
-  var sum=0;
-  for(var k=0;k<arr.length;k++){
-    sum+=arr[k];
+function ProcessArray(arr){
+
+  function Sum(inverse = false){
+      let sum = 0;
+
+      if(inverse == false){
+          for(let k = 0; k < arr.length; k++){
+              sum += arr[k];
+          }
+      }else {
+          for(let k = 0; k < arr.length; k++){
+              sum += 1 / arr[k];
+          }
+      }
+
+      return sum;
   }
-  console.log(sum);
+
+  function Concat(){
+      let str = "";
+
+      for(let k = 0; k < arr.length; k++){
+          str += String(arr[k]);
+      }
+
+      return str;
+  }
+
+  console.log(Sum());
+  console.log(Sum(true));
+  console.log(Concat());
 }
 
-function SumInverse(arr){
-  var sum=0;
-  for(var k=0;k<arr.length;k++){
-    sum+=1/arr[k];
-  }
-  console.log(sum);
-}
 
-function Concat(arr){
-  var con="";
-  for(var k in arr){
-    con+=arr[k].toString();
-  }
-  console.log(con);
-}
+ProcessArray([1, 2, 3]);
+console.log("--------------------");
+ProcessArray([2, 4, 8, 16]);
