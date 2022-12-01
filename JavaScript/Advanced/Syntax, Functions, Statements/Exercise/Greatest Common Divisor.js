@@ -1,13 +1,20 @@
 function FindGCD(num1, num2){
-  var div=1, GCD=0;
+  let gcd = 0, div = 1;
+
   while(true){
-    if(div>num1 && div>num2){
-      break;
-    }
-    if(num1%div==0 && num2%div==0){
-      GCD=div;
-    }
-    div++;
+      if(num1 % div == 0 && num2 % div == 0){
+          gcd = div;
+      }
+
+      if(div > num1 && div > num2){
+          break;
+      }
+
+      div++;
   }
-  console.log(GCD);
+
+  console.log(gcd);
 }
+
+FindGCD(15, 5);
+FindGCD(2154, 458);

@@ -1,14 +1,20 @@
-function SameOrNot(number){
-  var same=true;
-  var numStr=String(number);
-  var sum=Number(numStr[0]);
-  for(var k=1;k<numStr.length;k++){
-    sum+=Number(numStr[k]);
-    if(numStr[k]!=numStr[k-1]){
-      same=false;
-    }
+function checkIfSameDigits(number){
+  let strNumber = String(number);
+  let sameDigits = true;
+  let sumOfDigits = 0;
+
+  for(let k = 0; k < strNumber.length; k++){
+      if(strNumber[k] != strNumber[0]){
+          sameDigits = false;
+      }
+
+      sumOfDigits += Number(strNumber[k]);
   }
 
-  console.log(same);
-  console.log(sum);
+  console.log(sameDigits);
+  console.log(sumOfDigits);
 }
+
+
+checkIfSameDigits(2222222);
+checkIfSameDigits(1234);

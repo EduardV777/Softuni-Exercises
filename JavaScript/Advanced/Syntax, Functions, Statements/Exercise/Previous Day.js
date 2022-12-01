@@ -1,9 +1,16 @@
-function FindOutPreviousDay(year, month, day){
-  if(day==1){
-    if(month-1==9){
-      day-=1;
-    }
+function findPreviousDay(year, month, day){
+    
+  let dateObj = new Date(year, month - 1, day);
+  
+  function printDate(){
+      console.log(`${dateObj.getFullYear()}-${dateObj.getMonth() + 1}-${dateObj.getDate()}`);
   }
-  yesterday=new Date(year,month,day-1);
-  console.log(yesterday.getFullYear()+"-"+yesterday.getMonth()+"-"+yesterday.getDate());
+  
+  dateObj.setDate(dateObj.getDate() - 1);
+  
+  printDate();
 }
+
+findPreviousDay(2016, 3, 1);
+findPreviousDay(2016, 9, 30);
+findPreviousDay(2016, 10, 1);
