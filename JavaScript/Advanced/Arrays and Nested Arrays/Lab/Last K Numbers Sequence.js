@@ -1,45 +1,28 @@
-<<<<<<< HEAD
-function Sequence(n,k){
-  var sequence=[], output="[";
-  for(var j=0;j<n;j++){
-    var back=k, sum=0;
-    if(j==0){
-      sequence.push(1);
-    }else {
-      while(back!=0){
-        if(j-back>=0){
-          sum+=sequence[j-back];
-        }
-        back--;
+function generateSequence(n, k){
+  let sequence = [];
+
+  for(let j = 0; j < n; j++){
+      if(j == 0){
+          sequence.push(1);
+      } else {
+          
+          let sum = 0;
+
+          for(let i = j - 1; i > j - 1 - k; i--){
+
+              if(i < 0){
+                  break;
+              }
+              sum += sequence[i];
+          }
+
+          sequence.push(sum);
       }
-      sequence.push(sum);
-    }
   }
-  console.log("["+sequence.join(', ')+"]");
+
+  return sequence;
 }
-=======
 
 
-
-
-
-
-// function Sequence(n,k){
-//   var sequence=[], output="[";
-//   for(var j=0;j<n;j++){
-//     var back=k, sum=0;
-//     if(j==0){
-//       sequence.push(1);
-//     }else {
-//       while(back!=0){
-//         if(j-back>=0){
-//           sum+=sequence[j-back];
-//         }
-//         back--;
-//       }
-//       sequence.push(sum);
-//     }
-//   }
-//   console.log("["+sequence.join(', ')+"]");
-// }
->>>>>>> a796fc383b6d7a1e2b40c52280ee5f85b44360db
+console.log(generateSequence(6, 3));
+console.log(generateSequence(8, 2));

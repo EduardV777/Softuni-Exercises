@@ -1,17 +1,30 @@
-function GetFlavorArray(flavorArr, targetFlavor1, targetFlavor2){
-  var newArr=[], output="";
-  for(var i=0;i<flavorArr.length;i++){
-    if(flavorArr[i]==targetFlavor1){
-      var k=i;
-      while(k<flavorArr.length){
-        newArr.push(flavorArr[k]);
-        if(flavorArr[k]==targetFlavor2){
+function returnFlavors(arr, flavor1, flavor2){
+  let newFlavors = new Array();
+  let start = false;
+
+  for(let k = 0; k < arr.length; k++){
+      if(arr[k] == flavor1){
+          newFlavors.push(arr[k]);
+          start = true;
+
+      }else if (arr[k] == flavor2) {
+          newFlavors.push(arr[k]);
           break;
-        }
-        k++;
+          
+      } else {
+          if(start == true){
+              newFlavors.push(arr[k]);
+          }
       }
-      break;
-    }
   }
-  console.log(newArr);
+
+  return newFlavors;
 }
+
+
+
+
+
+console.log(returnFlavors(['Pumpkin Pie', 'Key Lime Pie', 'Cherry Pie', 'Lemon Meringue Pie', 'Sugar Cream Pie'], 'Key Lime Pie', 'Lemon Meringue Pie'));
+
+console.log(returnFlavors(['Apple Crisp', 'Mississippi Mud Pie', 'Pot Pie', 'Steak and Cheese Pie', 'Butter Chicken Pie', 'Smoked Fish Pie'], 'Pot Pie', 'Smoked Fish Pie'));
