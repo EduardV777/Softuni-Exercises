@@ -1,42 +1,35 @@
-<<<<<<< HEAD
 function cityTaxes(cityName, population, treasury){
-  cityData={'name':cityName, 'population': population, 'treasury':treasury, 'taxRate': 10,
-            'collectTaxes':function() { this.treasury=Math.floor(eval(this.population*this.taxRate));},
-            'applyGrowth':function(pct){ this.population=Math.floor(eval(this.population*(pct/100)));},
-            'applyRecession':function(pct){this.treasury=Math.floor(eval(this.treasury-(this.treasury*(pct/100))));} };
+  let obj = {name: cityName, population: population, treasury: treasury, taxRate: 10};
 
-  return cityData;
-}
-=======
-function cityTaxes(name, population, treasury){
-  let obj = {name: name, population: population, treasury: treasury, taxRate: 10,
-    collectTaxes: function() {
-      this.treasury += Math.floor(this.population * this.taxRate);
-    },
-    applyGrowth(pct){
+  let collectTaxes = function () {
+      this.treasury += this.population * this.taxRate;
+  }
+
+  let applyGrowth = function(pct) {
       this.population += Math.floor(this.population * (pct / 100));
-    },
-    applyRecession(pct){
+  }
+
+  let applyRecession = function(pct) {
       this.treasury -= Math.floor(this.treasury * (pct / 100));
-    }
-  };
+  }
+
+  obj.collectTaxes = collectTaxes;
+  obj.applyGrowth = applyGrowth;
+  obj.applyRecession = applyRecession;
 
   return obj;
-
 }
 
-// const city = 
-//   cityTaxes('Tortuga',
-//   7000,
-//   15000);
-// console.log(city);
 
-const city =
-  cityTaxes('Tortuga',
-  7000,
-  15000);
-city.collectTaxes();
-console.log(city.treasury);
-city.applyGrowth(5);
-console.log(city.population);
->>>>>>> a796fc383b6d7a1e2b40c52280ee5f85b44360db
+
+
+const city = cityTaxes('Tortuga', 7000, 15000);
+console.log(city);
+
+
+
+const city2 = cityTaxes('Tortuga', 7000, 15000);
+city2.collectTaxes();
+console.log(city2.treasury);
+city2.applyGrowth(5);
+console.log(city2.population);
