@@ -1,0 +1,15 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "testing mocha",
+  "main": "unitTesting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Velkov",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
