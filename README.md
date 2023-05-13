@@ -25,4 +25,5 @@ Official academy website: <a href="https://softuni.org"><i>softuni.org</a></i>
 
 
 <h1>1. How is this repository structured?</h1>
-<h4>Each folder in this repository represents a different language I have studied at the coding academy. Each subfolder within them represents a different stage of the whole course in that language. Folders within the subfolders represent each different topic and the respective code files.</h4>
+<h4>Each folder in this repository represents a different language I have studied at the coding academy. Each subfolder within them represents a different stage of the whole course in that language. Folders within the subfolders represent each different topic and the respective code files.
+Lab folders contain codes written together with a lecturer, while 'Exercise' folders are codes written on my own and tested using the academy's Judge system for automatic testing.</h4>
