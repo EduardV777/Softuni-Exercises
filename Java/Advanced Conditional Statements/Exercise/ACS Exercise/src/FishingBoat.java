@@ -26,6 +26,7 @@ public class FishingBoat {
                 if(fishers % 2 == 0){
                     boatRent -= boatRent * 0.05;
                 }
+                break;
             case "Summer":
                 boatRent = 4200;
 
@@ -40,6 +41,7 @@ public class FishingBoat {
                 if(fishers % 2 == 0){
                     boatRent -= boatRent * 0.05;
                 }
+                break;
             case "Autumn":
                 boatRent = 4200;
 
@@ -51,6 +53,7 @@ public class FishingBoat {
                     boatRent -= boatRent * 0.25;
                 }
 
+                break;
             case "Winter":
                 boatRent = 2600;
 
