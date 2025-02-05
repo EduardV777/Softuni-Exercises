@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f047700b-45af-43d3-8ea0-a2403255f259" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +31,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="29sPXTg2jEnIdZoyqkfmTGkUdrG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,7 +44,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Area of Figures.executor": "Run",
+    "Python.Basketball Equipment.executor": "Run",
+    "Python.Concatenate Data.executor": "Run",
+    "Python.Deposits Calculator.executor": "Run",
+    "Python.Even or Odd.executor": "Run",
+    "Python.Excellent Result.executor": "Run",
+    "Python.Fish Tank.executor": "Run",
+    "Python.Food Delivery.executor": "Run",
+    "Python.Greater Number.executor": "Run",
+    "Python.Greeting by name.executor": "Run",
+    "Python.Hello SoftUni.executor": "Run",
     "Python.HelloSoftUni.executor": "Run",
+    "Python.Inches to centimeters.executor": "Run",
+    "Python.Numbers 100...200.executor": "Run",
+    "Python.Nums 1...10.executor": "Run",
+    "Python.Password Guess.executor": "Run",
+    "Python.Pet Shop.executor": "Run",
+    "Python.Projects Creation.executor": "Run",
+    "Python.Radians to Degrees.executor": "Run",
+    "Python.Rectangle Area.executor": "Run",
+    "Python.Repainting.executor": "Run",
+    "Python.Supplies For School.executor": "Run",
+    "Python.USD to BGN.executor": "Run",
+    "Python.Vacation Books List.executor": "Run",
+    "Python.Yard Greening.executor": "Run",
     "Python.main (2).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,8 +85,8 @@
       <recent name="C:\Git repositories\Softuni-Exercises\Python\Advanced\Modules\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HelloSoftUni">
-    <configuration name="HelloSoftUni" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Deposits Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/First Steps in Coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/First Steps in Coding/HelloSoftUni.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Deposits Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Radians to Degrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/OOP/Exam Task 2/01. Structure and 02. Functionality" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/OOP/Exam Task 2/01. Structure and 02. Functionality/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Radians to Degrees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,58 +130,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_shopping.Tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Repainting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/OOP/Exam Task 2/03. Unit Testing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_shopping.Tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Repainting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in C:/GitRep/Softuni-Exercises/Python/OOP/Exam Task 2/03. Unit Testing/test_shopping.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Supplies For School" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/OOP/Exam Task 2/03. Unit Testing/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python/OOP/Exam Task 2/03. Unit Testing/test_shopping.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Supplies For School.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_shopping.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Vacation Books List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/OOP/Exam Task 2/03. Unit Testing/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python/OOP/Exam Task 2/03. Unit Testing/project/test/test_shopping.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Vacation Books List.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HelloSoftUni" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python tests.Python tests in test_shopping.py" />
-        <item itemvalue="Python tests.Python tests in C:/GitRep/Softuni-Exercises/Python/OOP/Exam Task 2/03. Unit Testing/test_shopping.py" />
-        <item itemvalue="Python tests.Python tests for test_shopping.Tests" />
+        <item itemvalue="Python.Repainting" />
+        <item itemvalue="Python.Supplies For School" />
+        <item itemvalue="Python.Vacation Books List" />
+        <item itemvalue="Python.Deposits Calculator" />
+        <item itemvalue="Python.Radians to Degrees" />
       </list>
     </recent_temporary>
   </component>
