@@ -1,14 +1,14 @@
-penPackPrice = 5.80
-markerPackPrice = 7.20
-detergentLiterPrice = 1.20
+penQty = int(input())
+markerQty = int(input())
+detergentLitres = int(input())
+salePct = int(input())
 
 
-penPacks = int(input())
-markerPacks = int(input())
-detergent = int(input())
-sale = int(input()) / 100
+penPrice = 5.80
+markerPrice = 7.20
+detergentPriceL = 1.20
 
-subTotal = (penPacks * penPackPrice) + (markerPacks * markerPackPrice) + (detergent * detergentLiterPrice)
-total = subTotal - (subTotal * sale)
+total = (penQty * penPrice) + (markerQty * markerPrice) + (detergentLitres * detergentPriceL)
+discount = (salePct / 100) * total
 
-print(total)
+print(total - discount)

@@ -1,10 +1,11 @@
-basketBallYearlyTax = float(input())
+annualTrainingTax = int(input())
 
-sneakersPrice = basketBallYearlyTax - basketBallYearlyTax * 0.4
-jerseyPrice = sneakersPrice - sneakersPrice * 0.2
-ballPrice = jerseyPrice / 4
-accessoriesPrice = ballPrice / 5
+basketballSneakersPrice = annualTrainingTax - annualTrainingTax * 0.40
+basketballJerseyPrice = basketballSneakersPrice - basketballSneakersPrice * 0.20
+basketballBallPrice = basketballJerseyPrice / 4
+basketballAccessoriesPrice = basketballBallPrice / 5
 
-trainingCosts = basketBallYearlyTax + sneakersPrice + jerseyPrice + ballPrice + accessoriesPrice
 
-print(trainingCosts)
+total = basketballSneakersPrice + basketballJerseyPrice + basketballBallPrice + basketballAccessoriesPrice + annualTrainingTax
+
+print(f"{total}")

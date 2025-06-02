@@ -1,7 +1,7 @@
-fName = input()
-lName = input()
+name = input()
+lastName = input()
 age = int(input())
-city = input()
+town = input()
 
-print(f"You are {fName} {lName}, a {age}-years old person from {city}.")
-#print("You are " + fName + " " + lName + ", a " + str(age) + "-years old person from " + city + ".")
+
+print(f"You are {name} {lastName}, a {age}-years old person from {town}.")

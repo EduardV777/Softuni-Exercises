@@ -1,7 +1,6 @@
 from math import pi
 
-RadAngle = float(input())
+radians = float(input())
+deg = radians * 180 / pi
 
-Degrees = RadAngle * 180 / pi
-
-print(Degrees)
+print(deg)

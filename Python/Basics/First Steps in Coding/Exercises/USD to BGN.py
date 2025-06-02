@@ -1,6 +1,8 @@
-fixedRate = 1.79549
+# 1 USD = 1.79549 BGN
 
-USD = float(input())
-BGN = USD * fixedRate
+rate = 1.79549
 
-print(BGN)
+usd = float(input())
+bgn = usd * rate
+
+print(bgn)

@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f047700b-45af-43d3-8ea0-a2403255f259" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Softuni-Exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Softuni-Exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Bonus Score.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Sum Seconds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Time +15 minutes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Toy Shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Area of Figures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Even or Odd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Excellent Result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Greater Number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Numbers 100...200.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Password Guess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Speed info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Basketball Equipment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Deposits Calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Fish Tank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Food Delivery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Radians to Degrees.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Repainting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Supplies For School.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/USD to BGN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Vacation Books List.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Concatenate Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Concatenate Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Inches to centimeters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Inches to centimeters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Nums 1...10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Pet Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Pet Shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Projects Creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Projects Creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Rectangle Area.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Rectangle Area.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Yard Greening.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Yard Greening.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +59,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
   <component name="ProjectId" id="29sPXTg2jEnIdZoyqkfmTGkUdrG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -41,59 +67,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Animal Type.executor": "Run",
-    "Python.Area of Figures.executor": "Run",
-    "Python.Basketball Equipment.executor": "Run",
-    "Python.Bonus Score.executor": "Run",
-    "Python.Character Sequence.executor": "Run",
-    "Python.Concatenate Data.executor": "Run",
-    "Python.Day of week.executor": "Run",
-    "Python.Deposits Calculator.executor": "Run",
-    "Python.Even or Odd.executor": "Run",
-    "Python.Even powers of 2.executor": "Run",
-    "Python.Excellent Result.executor": "Run",
-    "Python.Fish Tank.executor": "Run",
-    "Python.Food Delivery.executor": "Run",
-    "Python.Greater Number.executor": "Run",
-    "Python.Greeting by name.executor": "Run",
-    "Python.Hello SoftUni.executor": "Run",
-    "Python.HelloSoftUni.executor": "Run",
-    "Python.Inches to centimeters.executor": "Run",
-    "Python.Number in Range.executor": "Run",
-    "Python.Numbers 1... With Step 3.executor": "Run",
-    "Python.Numbers 100...200.executor": "Run",
-    "Python.Numbers N... 1.executor": "Run",
-    "Python.Numbers from 1 to 100.executor": "Run",
-    "Python.Nums 1...10.executor": "Run",
-    "Python.Password Guess.executor": "Run",
-    "Python.Password.executor": "Run",
-    "Python.Personal titles.executor": "Run",
-    "Python.Pet Shop.executor": "Run",
-    "Python.Projects Creation.executor": "Run",
-    "Python.Radians to Degrees.executor": "Run",
-    "Python.Read Text.executor": "Run",
-    "Python.Rectangle Area.executor": "Run",
-    "Python.Repainting.executor": "Run",
-    "Python.Sequence 2k+1.executor": "Run",
-    "Python.Small Shop.executor": "Run",
-    "Python.Sum Numbers.executor": "Run",
-    "Python.Sum Seconds.executor": "Run",
-    "Python.Supplies For School.executor": "Run",
-    "Python.Time +15 minutes.executor": "Run",
-    "Python.Toy Shop.executor": "Run",
-    "Python.USD to BGN.executor": "Run",
-    "Python.Vacation Books List.executor": "Run",
-    "Python.Weekend or Working day.executor": "Run",
-    "Python.Yard Greening.executor": "Run",
-    "Python.main (2).executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitRep/Softuni-Exercises"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git repositories\Softuni-Exercises\Python\OOP\Exam Task 2\03. Unit Testing\project\test" />
@@ -103,10 +76,9 @@
       <recent name="C:\Git repositories\Softuni-Exercises\Python\Advanced\Modules\Practice" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Deposits Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.FishTank">
+    <configuration name="Basketball Equipment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -117,7 +89,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Deposits Calculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Basketball Equipment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FishTank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Softuni-Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/FishTank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Food Delivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Softuni-Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Food Delivery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +142,6 @@
     </configuration>
     <configuration name="Repainting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -148,31 +161,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Sum Seconds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Softuni-Exercises" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Sum Seconds.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Supplies For School" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -192,35 +182,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Vacation Books List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Softuni-Exercises" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Vacation Books List.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Sum Seconds" />
+        <item itemvalue="Python.FishTank" />
+        <item itemvalue="Python.Basketball Equipment" />
+        <item itemvalue="Python.Food Delivery" />
         <item itemvalue="Python.Repainting" />
         <item itemvalue="Python.Supplies For School" />
-        <item itemvalue="Python.Vacation Books List" />
-        <item itemvalue="Python.Deposits Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +220,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,11 +1,12 @@
-SqMeterPrice = 7.61
-TotalSale = 0.18
+squareMeters = float(input())
 
-SqMeters = float(input())
+SqMPrice = 7.61
+totalSale = 18
 
-subTotal = SqMeters * SqMeterPrice
-sale = subTotal * TotalSale
-total = subTotal - sale
+total = squareMeters * SqMPrice
+discount = total * (totalSale / 100)
+
+total -= discount
 
 print(f"The final price is: {total} lv.")
-print(f"The discount is: {sale} lv.")
+print(f"The discount is: {discount} lv.")

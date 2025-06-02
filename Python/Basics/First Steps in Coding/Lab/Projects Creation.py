@@ -1,6 +1,9 @@
 architectName = input()
-projectsN = int(input())
+projectsCount = int(input())
+
+# each projects takes 3 hours
 timePerProject = 3
-#One project takes three hours to be created
-hoursNeeded = projectsN * timePerProject
-print(f"The architect {architectName} will need {hoursNeeded} hours to complete {projectsN} project/s.")
+
+neededHours = projectsCount * timePerProject
+
+print(f"The architect {architectName} will need {neededHours} hours to complete {projectsCount} project/s.")

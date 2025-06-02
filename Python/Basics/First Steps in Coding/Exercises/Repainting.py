@@ -1,17 +1,21 @@
-protectiveCoverPerMeter = 1.50
-paintPerLiter = 14.50
-thinnerPerLiter = 5.00
-workersPricePerHour = None # 30 percent of all materials costs
+nylonSqMPrice = 1.50
+paintLPrice = 14.50
+paintThinnerLPrice = 5
 
-additionalPaintPct = 0.1; additionalCoverMeters = 2; envelopesPrice = 0.40
+paintLAddPct = 10
+nylonAddSqUnits = 2
+bagsExpenses = 0.40
 
-protectiveCover = int(input()) + additionalCoverMeters
-paint = int(input())
-thinner = int(input())
-workersHours = int(input())
+nylonSqMeters = int(input())
+paintLiters = int(input())
+thinnerLiters = int(input())
+buildersWorkHours = int(input())
 
-totalMatCosts = (protectiveCover * protectiveCoverPerMeter) + ((paint + (paint * additionalPaintPct)) * paintPerLiter) + (thinner * thinnerPerLiter) + envelopesPrice
-workersCosts = (totalMatCosts * 0.3) * workersHours
-totalCosts = totalMatCosts + workersCosts
+total = ((nylonSqMeters + nylonAddSqUnits) * nylonSqMPrice) + ((paintLiters + (paintLiters * paintLAddPct / 100)) * paintLPrice) + (thinnerLiters * paintThinnerLPrice) \
+    + bagsExpenses
 
-print(f"{totalCosts}")
+workHourExpense = total * 0.30
+
+total += workHourExpense * buildersWorkHours
+
+print(f"{total}")
