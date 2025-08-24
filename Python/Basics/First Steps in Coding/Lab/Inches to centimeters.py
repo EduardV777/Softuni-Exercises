@@ -1,4 +1,4 @@
-inches = float(input())
-cm = inches * 2.54
+inch = float(input())
+cm = inch * 2.54
 
 print(cm)

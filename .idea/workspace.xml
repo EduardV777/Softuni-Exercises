@@ -5,36 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f047700b-45af-43d3-8ea0-a2403255f259" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Softuni-Exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Softuni-Exercises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Bonus Score.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Sum Seconds.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Time +15 minutes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Exercises/Toy Shop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Area of Figures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Even or Odd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Excellent Result.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Greater Number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Numbers 100...200.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Password Guess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements/Lab/Speed info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Lab/Animal Type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Lab/Day of week.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Lab/Number in Range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Lab/Personal titles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Lab/Small Shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Lab/Weekend or Working day.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Basketball Equipment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Deposits Calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Fish Tank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Deposit Calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/FishTank.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Food Delivery.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Radians to Degrees.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Repainting.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Supplies For School.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/USD to BGN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Vacation Books List.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Vacations Books List.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Concatenate Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Concatenate Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Greeting by name.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Greeting by name.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Inches to centimeters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Inches to centimeters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Nums 1...10.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Pet Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Pet Shop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Projects Creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Projects Creation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Rectangle Area.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Rectangle Area.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Yard Greening.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Lab/Yard Greening.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/For Loop/Lab/Character Sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/For Loop/Lab/Even powers of 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/For Loop/Lab/Numbers 1... With Step 3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/For Loop/Lab/Numbers N... 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Basics/For Loop/Lab/Numbers from 1 to 100.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git repositories\Softuni-Exercises\Python\OOP\Exam Task 2\03. Unit Testing\project\test" />
@@ -76,8 +78,8 @@
       <recent name="C:\Git repositories\Softuni-Exercises\Python\Advanced\Modules\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FishTank">
-    <configuration name="Basketball Equipment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.SkiTrip">
+    <configuration name="HotelRoom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Basketball Equipment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise/HotelRoom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FishTank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Journey" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/FishTank.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise/Journey.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Food Delivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OnTimeForTheExam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Food Delivery.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise/OnTimeForTheExam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Repainting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OperationsBetweenNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Repainting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise/OperationsBetweenNumbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Supplies For School" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SkiTrip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/First Steps in Coding/Exercises/Supplies For School.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/Conditional Statements Advanced/Exercise/SkiTrip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FishTank" />
-        <item itemvalue="Python.Basketball Equipment" />
-        <item itemvalue="Python.Food Delivery" />
-        <item itemvalue="Python.Repainting" />
-        <item itemvalue="Python.Supplies For School" />
+        <item itemvalue="Python.SkiTrip" />
+        <item itemvalue="Python.OnTimeForTheExam" />
+        <item itemvalue="Python.HotelRoom" />
+        <item itemvalue="Python.OperationsBetweenNumbers" />
+        <item itemvalue="Python.Journey" />
       </list>
     </recent_temporary>
   </component>

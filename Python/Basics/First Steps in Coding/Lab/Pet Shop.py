@@ -1,9 +1,9 @@
-dogFoodPacks = int(input())
-catFoodPacks = int(input())
+dogPacks = int(input())
+catPacks = int(input())
 
-dogFoodPrice = 2.50
-catFoodPrice = 4
+dogFoodPackP = 2.50
+catFoodPackP = 4
 
-total = dogFoodPacks * dogFoodPrice + catFoodPacks * catFoodPrice
+totalCost = (dogPacks * dogFoodPackP) + (catPacks * catFoodPackP)
 
-print(f"{total} lv.")
+print(f"{totalCost} lv.")

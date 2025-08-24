@@ -1,12 +1,10 @@
 squareMeters = float(input())
 
-SqMPrice = 7.61
-totalSale = 18
+sqMeterP = 7.61
+#18% sale of total
+totalCost = squareMeters * sqMeterP
+saleAmount = totalCost * 0.18
 
-total = squareMeters * SqMPrice
-discount = total * (totalSale / 100)
 
-total -= discount
 
-print(f"The final price is: {total} lv.")
-print(f"The discount is: {discount} lv.")
+print(f"The final price is: {totalCost - saleAmount} lv.\nThe discount is: {saleAmount} lv.")

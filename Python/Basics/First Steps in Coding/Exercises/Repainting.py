@@ -1,21 +1,25 @@
-nylonSqMPrice = 1.50
+coverSqP = 1.50
 paintLPrice = 14.50
-paintThinnerLPrice = 5
+thinnerLPrice = 5
+bagsP = 0.40
+workersHourlyPay = None # 30% of all materials cost
 
-paintLAddPct = 10
-nylonAddSqUnits = 2
-bagsExpenses = 0.40
+#10% additional paint
+addPaint = 0.1
+#2 additional sq meters of cover
+addCover = 2
 
-nylonSqMeters = int(input())
-paintLiters = int(input())
-thinnerLiters = int(input())
-buildersWorkHours = int(input())
+cover = int(input()) + addCover
+paint = int(input())
+thinner = int(input())
+hours = int(input())
 
-total = ((nylonSqMeters + nylonAddSqUnits) * nylonSqMPrice) + ((paintLiters + (paintLiters * paintLAddPct / 100)) * paintLPrice) + (thinnerLiters * paintThinnerLPrice) \
-    + bagsExpenses
+paint += paint * addPaint
 
-workHourExpense = total * 0.30
+materialsCost = bagsP + (cover * coverSqP) + (paint * paintLPrice) + (thinner * thinnerLPrice)
 
-total += workHourExpense * buildersWorkHours
+workersHourlyPay = materialsCost * 0.3
 
-print(f"{total}")
+totalCost =  materialsCost + (hours * workersHourlyPay)
+
+print(totalCost)

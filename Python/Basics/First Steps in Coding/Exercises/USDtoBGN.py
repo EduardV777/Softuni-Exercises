@@ -1,8 +1,9 @@
-# 1 USD = 1.79549 BGN
+#1 USD = 1.79549 BGN
+
+usd = float(input())
 
 rate = 1.79549
 
-usd = float(input())
 bgn = usd * rate
 
 print(bgn)

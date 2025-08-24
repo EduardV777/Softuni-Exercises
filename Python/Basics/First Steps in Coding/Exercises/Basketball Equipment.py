@@ -1,11 +1,16 @@
-annualTrainingTax = int(input())
+annualTrainingFee = int(input())
 
-basketballSneakersPrice = annualTrainingTax - annualTrainingTax * 0.40
-basketballJerseyPrice = basketballSneakersPrice - basketballSneakersPrice * 0.20
-basketballBallPrice = basketballJerseyPrice / 4
-basketballAccessoriesPrice = basketballBallPrice / 5
+# •	Баскетболни кецове – цената им е 40% по-малка от таксата за една година
+# •	Баскетболен екип – цената му е 20% по-евтина от тази на кецовете
+# •	Баскетболна топка – цената ѝ е 1 / 4 от цената на баскетболния екип
+# •	Баскетболни аксесоари – цената им е 1 / 5 от цената на баскетболната топка
 
+bShoesPrice = annualTrainingFee - (annualTrainingFee * 0.40)
+bJerseyPrice = bShoesPrice - (bShoesPrice * 0.2)
+bBallPrice = bJerseyPrice / 4
+bAccessoriesPrice = bBallPrice / 5
 
-total = basketballSneakersPrice + basketballJerseyPrice + basketballBallPrice + basketballAccessoriesPrice + annualTrainingTax
+total = bShoesPrice + bJerseyPrice + bBallPrice + bAccessoriesPrice + annualTrainingFee
 
-print(f"{total}")
+print(total)
+
