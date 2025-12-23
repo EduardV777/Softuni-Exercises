@@ -1,9 +1,9 @@
-name = input()
+user = input()
 password = input()
 
 while True:
-    passConfirm = input()
+    passAttempt = input()
 
-    if password == passConfirm:
-        print(f"Welcome {name}!")
+    if passAttempt == password:
+        print(f"Welcome {user}!")
         break

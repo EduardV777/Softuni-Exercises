@@ -1,6 +1,7 @@
 while True:
     command = input()
-    if not command == "Stop":
+
+    if command != "Stop":
         print(command)
     else:
         break
