@@ -51,8 +51,8 @@
       <recent name="C:\Git repositories\Softuni-Exercises\Python\Advanced\Modules\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Gladiator Expenses">
-    <configuration name="Gladiator Expenses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Bread Factory">
+    <configuration name="Bread Factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise/Gladiator Expenses.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Bread Factory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Party Profit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Easter Gifts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise/Party Profit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Easter Gifts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Snowballs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Hello, France" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise/Snowballs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Hello, France.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Triples of latin letters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Seize the Fire" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise/Triples of latin letters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Seize the Fire.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Water Overflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Survival of the biggest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Data Types and Variables/Exercise/Water Overflow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Survival of the biggest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Gladiator Expenses" />
-        <item itemvalue="Python.Snowballs" />
-        <item itemvalue="Python.Party Profit" />
-        <item itemvalue="Python.Water Overflow" />
-        <item itemvalue="Python.Triples of latin letters" />
+        <item itemvalue="Python.Bread Factory" />
+        <item itemvalue="Python.Hello, France" />
+        <item itemvalue="Python.Seize the Fire" />
+        <item itemvalue="Python.Easter Gifts" />
+        <item itemvalue="Python.Survival of the biggest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,19 +231,49 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py</url>
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py</url>
           <line>14</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py</url>
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py</url>
           <line>7</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python/Fundamentals/Easter Bread.py</url>
+          <url>file://$PROJECT_DIR$/Python/Fundamentals(OLD 2022 - 2023)/Easter Bread.py</url>
           <line>3</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Invert Values.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Seize the Fire.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Seize the Fire.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Hello, France.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Hello, France.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Basics/Exercise/Hello, France.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
