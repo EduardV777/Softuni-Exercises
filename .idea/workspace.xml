@@ -51,8 +51,8 @@
       <recent name="C:\Git repositories\Softuni-Exercises\Python\Advanced\Modules\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TennisRanklist">
-    <configuration name="CleverLily" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Christmas Spirit">
+    <configuration name="Christmas Spirit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise/CleverLily.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Christmas Spirit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Oscars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Easter Bread (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise/Oscars.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals/Easter Bread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Salary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Easter Bread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise/Salary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TennisRanklist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Mutate Strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise/TennisRanklist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Mutate Strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TrekkingMania" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Sorting Hat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Basics/For Loop/Exercise/TrekkingMania.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Sorting Hat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TennisRanklist" />
-        <item itemvalue="Python.TrekkingMania" />
-        <item itemvalue="Python.Oscars" />
-        <item itemvalue="Python.Salary" />
-        <item itemvalue="Python.CleverLily" />
+        <item itemvalue="Python.Christmas Spirit" />
+        <item itemvalue="Python.Easter Bread" />
+        <item itemvalue="Python.Easter Bread (1)" />
+        <item itemvalue="Python.Mutate Strings" />
+        <item itemvalue="Python.Sorting Hat" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +229,21 @@
           <url>file://$PROJECT_DIR$/Python/Basics/For Loop/Exercise/CleverLily.py</url>
           <line>15</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals 2/Basic syntax, Conditional Statements and Loops/Exercise/Easter Bread.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Fundamentals/Easter Bread.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
