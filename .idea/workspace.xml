@@ -53,8 +53,8 @@
       <recent name="C:\Git repositories\Softuni-Exercises\Python\Advanced\Modules\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Decipher This!">
-    <configuration name="Decipher This!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Weapon">
+    <configuration name="Circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise/Decipher This!.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Lab/Circle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Electron Distribution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise/Electron Distribution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Lab/Email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Group of 10s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Storage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise/Group of 10s.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Exercise/Storage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Number Classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Weapon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise/Number Classification.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Exercise/Weapon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Office Chairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Softuni-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Lists Advanced/Exercise/Office Chairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Fundamentals 2(2025-2026)(NEW)/Classes and Objects/Lab/Zoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Decipher This!" />
-        <item itemvalue="Python.Group of 10s" />
-        <item itemvalue="Python.Electron Distribution" />
-        <item itemvalue="Python.Office Chairs" />
-        <item itemvalue="Python.Number Classification" />
+        <item itemvalue="Python.Weapon" />
+        <item itemvalue="Python.Storage" />
+        <item itemvalue="Python.Circle" />
+        <item itemvalue="Python.Zoo" />
+        <item itemvalue="Python.Email" />
       </list>
     </recent_temporary>
   </component>
